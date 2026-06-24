@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Aptechka</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 24px 18px 64px; line-height: 1.6;
+         color: #1c1c1e; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6ea; background: #111114; } a { color: #5ec8b8; } }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 1.8em; }
+  .muted { color: #8a8a8e; font-size: 0.9rem; }
+  ul { padding-left: 1.2em; } a { color: #1a8273; }
+  .lang { float: right; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<a class="lang" href="index.html">Українська</a>
+<h1>Aptechka Privacy Policy</h1>
+<p class="muted">Effective date: 23 June 2026</p>
+
+<p>Aptechka is an app for managing your home medicine cabinet (medicines, expiry dates, stock, intake reminders).
+We built it to be <strong>privacy-first</strong>: your medical data is stored <strong>on your device</strong> and in
+<strong>your private iCloud</strong>. We have no server holding your medical data and no user accounts.</p>
+
+<h2>What data we collect</h2>
+<p>By default, <strong>no data is sent to us</strong>. Medicines, schedules, intake history, and notes are stored locally
+on your device (Apple SwiftData). We use no advertising, analytics, or third-party tracking, and we <strong>do not track</strong>
+you across apps or websites.</p>
+
+<h2>Where data is stored</h2>
+<ul>
+  <li><strong>Locally on your device</strong> — the primary mode.</li>
+  <li><strong>iCloud.</strong> Data syncs to <strong>your private iCloud database</strong> (Apple servers, encrypted) so it is
+    available on your devices signed in with the same Apple ID. Only you can access this data — <strong>we cannot see it</strong>.
+    It is managed through your Apple ID and iCloud settings.</li>
+</ul>
+
+<h2>Features that use the internet (all optional, off by default)</h2>
+<ul>
+  <li><strong>Smart photo recognition (AI).</strong> If you enable this feature (Premium) and photograph a package when the
+    medicine couldn’t be identified locally, a <strong>downscaled photo of the package</strong> is sent to our technical proxy
+    and to <strong>Anthropic (Claude)</strong> to recognize the name. The photo is used only for recognition,
+    <strong>is not retained long-term</strong>, and <strong>is not linked to your identity</strong>. Your cabinet and personal data are not sent.</li>
+  <li><strong>Name suggestions (OpenFDA).</strong> If enabled, <strong>only the text you type</strong> is sent — never your cabinet.</li>
+  <li><strong>Medicine leaflets.</strong> Loaded from the official Ukrainian registry (drlz.com.ua) by medicine number/name.</li>
+  <li><strong>Server reminders (Live Activity).</strong> Disabled in this version. If enabled, your intake schedule (times) and
+    identifiers are sent to our server — <strong>medicine names are not sent</strong>.</li>
+</ul>
+
+<h2>Camera</h2>
+<p>Camera access is used to <strong>scan barcodes and photograph packaging</strong>. Image processing happens on the device;
+a photo is sent over the network only when AI recognition is enabled.</p>
+
+<h2>Notifications</h2>
+<p>Reminders (expiry, refill, intake) are generated <strong>locally on the device</strong>.</p>
+
+<h2>Purchases</h2>
+<p>The Premium subscription is processed by <strong>Apple (StoreKit)</strong> and tied to your Apple ID. We do not receive or
+store your card details.</p>
+
+<h2>Third-party services (processors)</h2>
+<ul>
+  <li><strong>Apple</strong> — iCloud (sync), StoreKit (purchases), notification delivery.</li>
+  <li><strong>Anthropic</strong> — only if you enable AI photo recognition.</li>
+  <li><strong>OpenFDA</strong> — only if you enable network name suggestions.</li>
+  <li><strong>State Service of Ukraine on Medicines / drlz.com.ua</strong> — official registry for medicine leaflets.</li>
+</ul>
+
+<h2>Data retention and deletion</h2>
+<p>You can delete medicines and data inside the app at any time. Deleting the app removes local data. Data in iCloud is
+removed via your iCloud settings.</p>
+
+<h2>Children</h2>
+<p>The app is a reference and tracking tool for adults and is not intended for use by children; we intentionally do not collect children’s data.</p>
+
+<h2>Changes</h2>
+<p>We may update this policy. The current version is always available at this address; the date above reflects the latest change.</p>
+
+<h2>Contact</h2>
+<p>For privacy questions: <a href="mailto:lukyanov660@gmail.com">lukyanov660@gmail.com</a>.<br>
+Developer: Aptechka.</p>
+</body>
+</html>
